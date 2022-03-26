@@ -1,0 +1,335 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+button {
+  border: none;
+  background-color: unset;
+  cursor: pointer;
+}
+
+input {
+  background-color: transparent;
+  border: none;
+  outline: none;
+}
+
+input[type="search"]::-webkit-search-decoration,
+input[type="search"]::-webkit-search-cancel-button,
+input[type="search"]::-webkit-search-results-button,
+input[type="search"]::-webkit-search-results-decoration {
+  display: none;
+}
+
+.Container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  height: 100vh;
+  width: 100%;
+}
+
+/* Header */
+.Header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 20px 0;
+  height: calc(100% - 40px);
+  width: 100px;
+  border: 1px solid #dadada;
+}
+
+.Header img {
+  height: 50px;
+  width: 50px;
+}
+
+.HeaderCenter {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  width: 100%;
+}
+
+.HeaderButton {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 60px;
+  position: relative;
+  width: 100%;
+}
+
+.HeaderButtonClick {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 60px;
+  width: 60px;
+  border-radius: 12px;
+}
+
+.HeaderButtonClick img {
+  height: 30px;
+  width: 30px;
+}
+
+.HeaderButtonActive {
+  background-color: #dadada;
+}
+
+.HeaderButtonActiveLine {
+  background-color: green;
+  height: 100%;
+  width: 4px;
+  border-radius: 10px 1px 1px 10px;
+  position: absolute;
+  right: 0;
+}
+
+.HeaderBottom {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background-color: #dadada;
+  -webkit-box-shadow: 0 0 0 1px #dadada;
+          box-shadow: 0 0 0 1px #dadada;
+  border-radius: 50px;
+  height: 50px;
+  width: 50px;
+  overflow: hidden;
+}
+
+.HeaderBottom img {
+  height: 50px;
+  width: 50px;
+}
+
+/* Slidebar */
+.Slidebar {
+  padding: 20px;
+  width: 260px;
+}
+
+.SlidebarTop {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin: 0 0 20px 0;
+}
+
+.SlidebarTop p {
+  font-size: 24px;
+  font-weight: 700;
+}
+
+.SlidebarBack {
+  height: 50px;
+  width: 50px;
+  background-color: #dadada;
+  overflow: hidden;
+  border-radius: 8px;
+  margin: 0 20px 0 0;
+}
+
+.SlidebarBack img {
+  height: 25px;
+  width: 25px;
+}
+
+.border {
+  width: 100%;
+  height: 2px;
+  border-radius: 10px;
+  background-color: #dadada;
+}
+
+/* Slidebar NewMailButton */
+.NewMailButton {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 60px;
+  border-radius: 12px;
+  background-color: #5aaf57;
+  color: #fff;
+  margin: 20px 0;
+}
+
+.NewMailButtonImg {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 60px;
+  width: 60px;
+}
+
+.NewMailButtonImg img {
+  height: 30px;
+  width: 30px;
+}
+
+.NewMailButtonImg p {
+  width: 100%;
+}
+
+/* SlidebarInbox */
+.SlidebarInboxButton {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 60px;
+  border-radius: 12px;
+  margin: 20px 0;
+  /* background-color: #dadada; */
+  position: relative;
+}
+
+.SlidebarInboxButton:hover {
+  background-color: #dadada;
+}
+
+.SlidebarInboxLeft {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 50px;
+  width: 50px;
+}
+
+.SlidebarInboxLeft img {
+  height: 25px;
+  width: 25px;
+}
+
+.SlidebarInboxCount {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background-color: red;
+  color: #fff;
+  border-radius: 50px;
+  height: 20px;
+  width: 20px;
+  position: absolute;
+  top: -5px;
+  right: -5px;
+}
+
+/* Mail */
+.Mail {
+  margin: 20px;
+  padding: 20px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  border-radius: 12px;
+  background-color: #f0eeee;
+  width: 500px;
+}
+
+/* Search Box */
+.SearchBox {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  background-color: #e7e4e4;
+  width: 100%;
+  height: 60px;
+  border-radius: 12px;
+}
+
+.SearchBox input {
+  padding: 0 0 0 20px;
+  font-size: 20px;
+  width: 100%;
+  height: 100%;
+}
+
+.SearchButton {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  min-height: 60px;
+  min-width: 60px;
+  min-height: 60px;
+  min-width: 60px;
+}
+
+.SearchButton img {
+  height: 30px;
+  width: 30px;
+}
+/*# sourceMappingURL=design.css.map */

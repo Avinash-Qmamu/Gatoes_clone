@@ -1,0 +1,152 @@
+body{
+    background-color: #ffe6e6;
+    border-radius: 100px;
+    width:100%;
+    height: 100%;
+    font-family: sans-serif;
+    font-size: 15px;
+}
+
+.container{
+    display: flex;
+    flex-direction: row;
+    width:100%;
+    height: auto;
+    display:grid;
+    grid-template-columns: 5% 30% 65%;
+    
+}
+.logo{
+    
+    height:800px;
+    margin: 10px;
+
+}
+
+#logo_img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto; 
+    width:50px;
+    height:50px;
+
+}
+
+.chat_profile{
+    display: flex;
+    background-color: beige;
+    height: auto;
+    border-radius: 20px;
+    display:flexbox ;
+    
+}
+#search1{
+    width: 90%;
+    
+}
+#back_button{
+    margin:20px;
+    display:inline;
+}
+
+#profile_photo{
+    display: block;
+    margin-left: auto;
+    margin-right: auto; 
+    width:50%;
+    height: 30%;
+    border-radius: 50%;
+
+}
+#profile_name{
+    color:black;
+    text-align: center;
+
+}
+.chat{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#last_chat{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width:80%;
+    text-align: center;
+    margin-top: 70px;
+}
+
+#btn1{
+    width:10%;
+    text-align: center;
+    height: 20px;
+    float:right;
+    margin-top: -50px;
+    margin-right: 100px;
+}
+#btn2{
+    width: auto;
+    height: 20px;
+    float: right;
+    margin-top: -50px;
+}
+.chat{
+    background-color: aliceblue;
+    height: 50%;
+}
+
+#p1,#p2,#p3,#p4 {
+    display: inline-flex;
+    width:50px;
+    height: 50px;
+    display: flex;
+    margin-left: 30px;
+    border-radius: 50%;
+    padding:10px;
+
+}
+#w1 , #w2 ,#w3, #w4{
+    
+    margin-left: 120px;
+    margin-top: -50px;;
+   
+}
+
+
+.group{
+    background-color: rgb(238, 236, 232);
+    border-radius: 20px;
+    margin: 20px;
+    width:70%;
+    height:auto;
+}
+.group_title{
+    background-color: rgb(218, 217, 216);
+    padding:20px;
+    border-radius: 20px;
+}
+.messages{
+    font-size: 10px;
+    margin:25px;
+    height: auto;
+    
+}
+#message_profile{
+    border-radius: 50%;
+    width:4%;
+}
+#message1{
+    margin-top:-25px;
+    margin-left:25px;
+    display: inline;
+}
+#reply1, #reply2{
+    display: block;
+    float:right;
+}
+
+#chat_title{
+    display: inline;
+    margin-top:10px;
+}
